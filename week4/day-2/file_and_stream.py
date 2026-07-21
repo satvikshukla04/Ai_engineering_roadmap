@@ -95,3 +95,4 @@ async def stream():
         media_type="text/event-stream",
         headers=headers,
     )
+#completed
