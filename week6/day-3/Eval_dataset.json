@@ -1,0 +1,12 @@
+[
+  {"id": "q1", "question": "What is the capital of France?", "reference_answer": "Paris"},
+  {"id": "q2", "question": "Who wrote 'Romeo and Juliet'?", "reference_answer": "William Shakespeare"},
+  {"id": "q3", "question": "What is the chemical symbol for gold?", "reference_answer": "Au"},
+  {"id": "q4", "question": "What is the largest planet in our solar system?", "reference_answer": "Jupiter"},
+  {"id": "q5", "question": "In what year did World War II end?", "reference_answer": "1945"},
+  {"id": "q6", "question": "What is the boiling point of water in Celsius at sea level?", "reference_answer": "100 degrees Celsius"},
+  {"id": "q7", "question": "Who painted the Mona Lisa?", "reference_answer": "Leonardo da Vinci"},
+  {"id": "q8", "question": "What is the square root of 144?", "reference_answer": "12"},
+  {"id": "q9", "question": "What is the longest river in the world?", "reference_answer": "The Nile River"},
+  {"id": "q10", "question": "How many continents are there on Earth?", "reference_answer": "Seven"}
+]
