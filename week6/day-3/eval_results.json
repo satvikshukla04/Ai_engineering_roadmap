@@ -1,0 +1,130 @@
+{
+  "timestamp": 1785401096.3625028,
+  "total_tests": 10,
+  "mean_correctness": 5.0,
+  "mean_relevance": 4.8,
+  "fail_rate_percentage": 0.0,
+  "failed_test_ids": [],
+  "detailed_results": [
+    {
+      "test_id": "q1",
+      "question": "What is the capital of France?",
+      "generated_answer": "The capital of France is **Paris**.",
+      "scores": {
+        "correctness": 5,
+        "relevance": 5,
+        "reasoning": "The generated answer is perfectly accurate and directly answers the question by identifying Paris as the capital of France."
+      },
+      "passed": true,
+      "latency_ms": 1409.72
+    },
+    {
+      "test_id": "q2",
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "generated_answer": "**William Shakespeare** wrote *Romeo and Juliet*.",
+      "scores": {
+        "correctness": 5,
+        "relevance": 5,
+        "reasoning": "The generated answer is perfectly accurate, correctly identifying William Shakespeare as the author of 'Romeo and Juliet'. It directly and concisely answers the question."
+      },
+      "passed": true,
+      "latency_ms": 1359.4
+    },
+    {
+      "test_id": "q3",
+      "question": "What is the chemical symbol for gold?",
+      "generated_answer": "The chemical symbol for gold is **Au** (derived from the Latin word *aurum*, which means \"shining dawn\").",
+      "scores": {
+        "correctness": 5,
+        "relevance": 4,
+        "reasoning": "The generated answer is perfectly correct, identifying 'Au' as the chemical symbol for gold. It receives a 4 for relevance because it includes a small amount of extra, albeit interesting, background information about the Latin origin of the symbol."
+      },
+      "passed": true,
+      "latency_ms": 1471.94
+    },
+    {
+      "test_id": "q4",
+      "question": "What is the largest planet in our solar system?",
+      "generated_answer": "The largest planet in our solar system is **Jupiter**. \n\nIt is a gas giant with a mass more than two and a half times that of all the other planets in the solar system combined. To put its size into perspective, about 1,300 Earths could fit inside Jupiter.",
+      "scores": {
+        "correctness": 5,
+        "relevance": 5,
+        "reasoning": "The generated answer is perfectly accurate, correctly identifying Jupiter as the largest planet in our solar system. It also provides highly relevant and accurate supporting details about its size and mass."
+      },
+      "passed": true,
+      "latency_ms": 2200.76
+    },
+    {
+      "test_id": "q5",
+      "question": "In what year did World War II end?",
+      "generated_answer": "World War II ended in **1945**. \n\nThe war officially concluded on September 2, 1945, when the formal surrender documents were signed by Japan aboard the USS *Missouri*.",
+      "scores": {
+        "correctness": 5,
+        "relevance": 5,
+        "reasoning": "The generated answer correctly identifies the year 1945 as the end of World War II, matching the reference answer perfectly. It also provides accurate and relevant context regarding the exact date and event of the surrender."
+      },
+      "passed": true,
+      "latency_ms": 1730.97
+    },
+    {
+      "test_id": "q6",
+      "question": "What is the boiling point of water in Celsius at sea level?",
+      "generated_answer": "The boiling point of water at sea level is **100 \u00b0C** (212 \u00b0F).",
+      "scores": {
+        "correctness": 5,
+        "relevance": 5,
+        "reasoning": "The generated answer is perfectly accurate, stating 100 \u00b0C which matches the reference answer. It directly addresses the question with minimal, highly relevant additional information (the Fahrenheit equivalent)."
+      },
+      "passed": true,
+      "latency_ms": 1895.16
+    },
+    {
+      "test_id": "q7",
+      "question": "Who painted the Mona Lisa?",
+      "generated_answer": "The **Mona Lisa** was painted by the Italian Renaissance artist **Leonardo da Vinci**. He is believed to have started painting it in 1503.",
+      "scores": {
+        "correctness": 5,
+        "relevance": 5,
+        "reasoning": "The generated answer is perfectly accurate, identifying Leonardo da Vinci as the painter of the Mona Lisa. It directly answers the question and provides a small amount of highly relevant additional context."
+      },
+      "passed": true,
+      "latency_ms": 1383.56
+    },
+    {
+      "test_id": "q8",
+      "question": "What is the square root of 144?",
+      "generated_answer": "The square root of 144 is **12** (since $12 \\times 12 = 144$). \n\n*(Note: In algebra, it can also be **-12**, but the principal/positive square root is 12).*",
+      "scores": {
+        "correctness": 5,
+        "relevance": 5,
+        "reasoning": "The generated answer is perfectly accurate, providing the correct principal square root (12) as well as the algebraic negative root (-12) with a clear explanation."
+      },
+      "passed": true,
+      "latency_ms": 47990.49
+    },
+    {
+      "test_id": "q9",
+      "question": "What is the longest river in the world?",
+      "generated_answer": "The **Nile River** is officially and traditionally recognized as the longest river in the world. \n\nHowever, there is an ongoing scientific debate regarding this title. Here are the details for both contenders:\n\n### 1. The Nile River (Official Title Holder)\n* **Length:** Approximately **6,650 kilometers (4,132 miles)**.\n* **Location:** Northeast Africa (flowing through 11 countries, including Egypt, Sudan, and Uganda).\n* **Status:** Most major geographical authorities, including *Encyclop\u00e6dia Britannica* and *Guinness World Records*, officially list the Nile as the longest.\n\n### 2. The Amazon River (The Contender)\n* **Traditional Length:** Approximately **6,400 kilometers (3,977 miles)**.\n* **Location:** South America.\n* **The Debate:** The Amazon is indisputably the **largest** river in the world by water volume (holding more water than the next seven largest rivers combined). However, some satellite and on-the-ground studies led by Brazilian researchers claim to have located a new, more distant source for the Amazon. If these measurements are officially accepted, the Amazon would measure **6,992 kilometers (4,345 miles)**, making it longer than the Nile.\n\n### Summary\nWhile the **Nile** is still officially considered the longest, the **Amazon** is a close rival, and the title depends on which scientific methodology is used to locate the exact source of each river.",
+      "scores": {
+        "correctness": 5,
+        "relevance": 5,
+        "reasoning": "The generated answer correctly identifies the Nile River as the longest river in the world, matching the reference answer. It also provides excellent, highly relevant context regarding the scientific debate between the Nile and the Amazon River."
+      },
+      "passed": true,
+      "latency_ms": 5421.47
+    },
+    {
+      "test_id": "q10",
+      "question": "How many continents are there on Earth?",
+      "generated_answer": "By the most widely accepted standard, there are **7 continents** on Earth. \n\nIf you grew up in an English-speaking country, this is almost certainly the model you were taught. These seven continents are:\n\n1. **Africa**\n2. **Antarctica**\n3. **Asia**\n4. **Europe**\n5. **North America**\n6. **Australia** (often referred to geographically as part of **Oceania**)\n7. **South America**\n\n---\n\n### Why the answer can vary:\nThere is no single, globally agreed-upon definition of a continent. Because of this, different parts of the world teach different models:\n\n* **The 6-Continent Model (Eurasia):** Popular in Russia and Eastern Europe. This model combines Europe and Asia into one continent called **Eurasia**, because they are part of the same continuous landmass.\n* **The 6-Continent Model (America):** Popular in Latin America and southern Europe. This model combines North and South America into a single continent called **America**.\n* **The 5-Continent Model:** This model only counts inhabited continents, excluding Antarctica. This is the model represented by the **five rings of the Olympic flag** (Africa, America, Asia, Europe, and Oceania).\n* **The 4-Continent Model:** Some geographers argue that if we define continents strictly as continuous landmasses surrounded by water, there are only four: **Afro-Eurasia** (Africa, Asia, and Europe combined), **America** (North and South combined), **Antarctica**, and **Australia**.",
+      "scores": {
+        "correctness": 5,
+        "relevance": 4,
+        "reasoning": "The generated answer is factually accurate and correctly identifies the seven continents, matching the reference answer. It is highly relevant, though it includes extra context and alternative models beyond the simple direct answer."
+      },
+      "passed": true,
+      "latency_ms": 4621.67
+    }
+  ]
+}
