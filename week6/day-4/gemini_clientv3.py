@@ -169,3 +169,5 @@ if __name__ == "__main__":
         client.generate_content("Write a long summary on database optimization.")
     except BudgetExceeded as e:
         print(f"✅ Cutoff enforced: {e}")
+        #comment
+        
