@@ -1,0 +1,219 @@
+{
+  "timestamp": 1786696990.945117,
+  "judge_mode": "gemini",
+  "n_questions": 15,
+  "mean_faithfulness": 0.8,
+  "mean_answer_relevancy": 0.35,
+  "results": [
+    {
+      "id": "q1",
+      "question": "How long does standard shipping take?",
+      "retrieved_context": [
+        "Standard shipping takes 5-7 business days within the continental US.",
+        "The warranty does not cover accidental damage, water damage, or unauthorized repairs.",
+        "Cancelling a subscription stops future charges but does not refund the current billing period."
+      ],
+      "top_retrieval_score": 4.706,
+      "answer": "5-7 business days within the continental US.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.25
+    },
+    {
+      "id": "q2",
+      "question": "Do you ship to Europe?",
+      "retrieved_context": [
+        "We do not currently ship internationally outside the US and Canada.",
+        "You can create an account using an email address or by signing in with Google.",
+        "Gift cards do not expire and can be combined with other payment methods at checkout."
+      ],
+      "top_retrieval_score": 4.959,
+      "answer": "No.",
+      "faithfulness": 0.0,
+      "faithfulness_reason": "0/1 claims supported",
+      "answer_relevancy": 0.0
+    },
+    {
+      "id": "q3",
+      "question": "What is the return window for a purchase?",
+      "retrieved_context": [
+        "Return shipping labels are free for defective items, otherwise the customer pays return postage.",
+        "Bulk orders of 50+ units qualify for a 10% discount; contact sales for a quote.",
+        "The mobile app is available on iOS 15+ and Android 10+."
+      ],
+      "top_retrieval_score": 5.46,
+      "answer": "Based on the provided context, there is no mention of a return window.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.44
+    },
+    {
+      "id": "q4",
+      "question": "Do I have to pay for return shipping?",
+      "retrieved_context": [
+        "Return shipping labels are free for defective items, otherwise the customer pays return postage.",
+        "We do not currently ship internationally outside the US and Canada.",
+        "Gift cards do not expire and can be combined with other payment methods at checkout."
+      ],
+      "top_retrieval_score": 4.879,
+      "answer": "It depends: return shipping labels are free for defective items, but otherwise, the customer pays return postage.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.67
+    },
+    {
+      "id": "q5",
+      "question": "How long until I get my refund back?",
+      "retrieved_context": [
+        "Cancelling a subscription stops future charges but does not refund the current billing period.",
+        "Standard shipping takes 5-7 business days within the continental US.",
+        "Express shipping costs an additional $15 and delivers in 1-2 business days."
+      ],
+      "top_retrieval_score": 2.51,
+      "answer": "Based on the provided context, cancelling a subscription does not refund the current billing period.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.11
+    },
+    {
+      "id": "q6",
+      "question": "Does the warranty cover a cracked screen from a drop?",
+      "retrieved_context": [
+        "The warranty does not cover accidental damage, water damage, or unauthorized repairs.",
+        "To file a warranty claim, contact support with your order ID and a description of the issue.",
+        "Cancelling a subscription stops future charges but does not refund the current billing period."
+      ],
+      "top_retrieval_score": 7.092,
+      "answer": "No.",
+      "faithfulness": 0.0,
+      "faithfulness_reason": "0/1 claims supported",
+      "answer_relevancy": 0.0
+    },
+    {
+      "id": "q7",
+      "question": "How do I file a warranty claim?",
+      "retrieved_context": [
+        "To file a warranty claim, contact support with your order ID and a description of the issue.",
+        "All electronics purchased come with a 1-year manufacturer warranty covering defects.",
+        "We do not currently ship internationally outside the US and Canada."
+      ],
+      "top_retrieval_score": 5.078,
+      "answer": "Contact support with your order ID and a description of the issue.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.0
+    },
+    {
+      "id": "q8",
+      "question": "What are the password requirements for my account?",
+      "retrieved_context": [
+        "Return shipping labels are free for defective items, otherwise the customer pays return postage.",
+        "Refunds are issued to the original payment method within 5-10 business days of us receiving the item.",
+        "Subscription plans are billed monthly and can be cancelled at any time from the billing page."
+      ],
+      "top_retrieval_score": 3.427,
+      "answer": "Based on the provided context, there is no information about password requirements.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.33
+    },
+    {
+      "id": "q9",
+      "question": "How do I turn on two-factor authentication?",
+      "retrieved_context": [
+        "The mobile app is available on iOS 15+ and Android 10+.",
+        "Two-factor authentication can be enabled from the Security tab in account settings.",
+        "We do not currently ship internationally outside the US and Canada."
+      ],
+      "top_retrieval_score": 2.786,
+      "answer": "Enable it from the Security tab in account settings.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.33
+    },
+    {
+      "id": "q10",
+      "question": "If I cancel my subscription mid-month, do I get a partial refund?",
+      "retrieved_context": [
+        "Cancelling a subscription stops future charges but does not refund the current billing period.",
+        "We do not currently ship internationally outside the US and Canada.",
+        "Gift cards do not expire and can be combined with other payment methods at checkout."
+      ],
+      "top_retrieval_score": 2.972,
+      "answer": "No, cancelling a subscription does not refund the current billing period.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.44
+    },
+    {
+      "id": "q11",
+      "question": "Do you offer price matching with competitors?",
+      "retrieved_context": [
+        "You can create an account using an email address or by signing in with Google.",
+        "Gift cards do not expire and can be combined with other payment methods at checkout.",
+        "We do not currently ship internationally outside the US and Canada."
+      ],
+      "top_retrieval_score": 3.661,
+      "answer": "Based on the provided context, there is no mention of price matching with competitors.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.33
+    },
+    {
+      "id": "q12",
+      "question": "Is there a student discount available?",
+      "retrieved_context": [
+        "The mobile app is available on iOS 15+ and Android 10+.",
+        "Customer support is available via live chat 9am-6pm ET, Monday through Friday.",
+        "Bulk orders of 50+ units qualify for a 10% discount; contact sales for a quote."
+      ],
+      "top_retrieval_score": 2.174,
+      "answer": "Based on the provided context, there is no mention of a student discount.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.5
+    },
+    {
+      "id": "q13",
+      "question": "Can I pay in installments with a buy-now-pay-later plan?",
+      "retrieved_context": [
+        "You can create an account using an email address or by signing in with Google.",
+        "All electronics purchased come with a 1-year manufacturer warranty covering defects.",
+        "To file a warranty claim, contact support with your order ID and a description of the issue."
+      ],
+      "top_retrieval_score": 3.222,
+      "answer": "Based on the provided context, there is no mention of whether you can pay in installments with a buy-now-pay-later plan.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "1/1 claims supported",
+      "answer_relevancy": 0.83
+    },
+    {
+      "id": "q14",
+      "question": "What are your customer support hours?",
+      "retrieved_context": [
+        "Customer support is available via live chat 9am-6pm ET, Monday through Friday.",
+        "To file a warranty claim, contact support with your order ID and a description of the issue.",
+        "Return shipping labels are free for defective items, otherwise the customer pays return postage."
+      ],
+      "top_retrieval_score": 4.194,
+      "answer": "9am-6pm ET, Monday through Friday.",
+      "faithfulness": 0.0,
+      "faithfulness_reason": "0/1 claims supported",
+      "answer_relevancy": 0.33
+    },
+    {
+      "id": "q15",
+      "question": "Will the app work on a phone from 2018?",
+      "retrieved_context": [
+        "The mobile app is available on iOS 15+ and Android 10+.",
+        "Two-factor authentication can be enabled from the Security tab in account settings.",
+        "Subscription plans are billed monthly and can be cancelled at any time from the billing page."
+      ],
+      "top_retrieval_score": 6.216,
+      "answer": "Based on the provided context, there is no mention of the year a phone was released, only that the app requires iOS 15+ or Android 10+. Therefore, the context does not contain enough information to answer if it will work on a phone from 2018.",
+      "faithfulness": 1.0,
+      "faithfulness_reason": "2/2 claims supported",
+      "answer_relevancy": 0.75
+    }
+  ]
+}

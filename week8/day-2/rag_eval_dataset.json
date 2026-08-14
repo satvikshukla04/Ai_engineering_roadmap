@@ -1,0 +1,17 @@
+[
+  {"id": "q1", "question": "How long does standard shipping take?"},
+  {"id": "q2", "question": "Do you ship to Europe?"},
+  {"id": "q3", "question": "What is the return window for a purchase?"},
+  {"id": "q4", "question": "Do I have to pay for return shipping?"},
+  {"id": "q5", "question": "How long until I get my refund back?"},
+  {"id": "q6", "question": "Does the warranty cover a cracked screen from a drop?"},
+  {"id": "q7", "question": "How do I file a warranty claim?"},
+  {"id": "q8", "question": "What are the password requirements for my account?"},
+  {"id": "q9", "question": "How do I turn on two-factor authentication?"},
+  {"id": "q10", "question": "If I cancel my subscription mid-month, do I get a partial refund?"},
+  {"id": "q11", "question": "Do you offer price matching with competitors?"},
+  {"id": "q12", "question": "Is there a student discount available?"},
+  {"id": "q13", "question": "Can I pay in installments with a buy-now-pay-later plan?"},
+  {"id": "q14", "question": "What are your customer support hours?"},
+  {"id": "q15", "question": "Will the app work on a phone from 2018?"}
+]
