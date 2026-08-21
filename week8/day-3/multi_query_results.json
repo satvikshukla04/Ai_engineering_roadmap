@@ -1,0 +1,183 @@
+{
+  "mode": "gemini",
+  "mean_single_recall": 0.55,
+  "mean_multi_recall": 0.8,
+  "mean_improvement": 0.25,
+  "results": [
+    {
+      "query": "How do I stop my recurring subscription charges?",
+      "variants": [
+        "What are the steps to cancel my ongoing membership payments?",
+        "How can I terminate my automatic billing cycle?",
+        "In what way can I discontinue my subscription to prevent further charges?"
+      ],
+      "single_query": {
+        "chunks": [
+          "We do not currently ship internationally outside the US and Canada.",
+          "Cancelling a subscription stops future charges but does not refund the current billing period.",
+          "Gift cards do not expire and can be combined with other payment methods at checkout.",
+          "Subscription plans are billed monthly and can be cancelled at any time from the billing page.",
+          "Standard shipping takes 5-7 business days within the continental US."
+        ],
+        "recall": 1.0
+      },
+      "multi_query": {
+        "merged_chunks": [
+          "We do not currently ship internationally outside the US and Canada.",
+          "Cancelling a subscription stops future charges but does not refund the current billing period.",
+          "Gift cards do not expire and can be combined with other payment methods at checkout.",
+          "Subscription plans are billed monthly and can be cancelled at any time from the billing page.",
+          "Standard shipping takes 5-7 business days within the continental US.",
+          "Refunds are issued to the original payment method within 5-10 business days of us receiving the item.",
+          "To file a warranty claim, contact support with your order ID and a description of the issue.",
+          "Return shipping labels are free for defective items, otherwise the customer pays return postage.",
+          "Two-factor authentication can be enabled from the Security tab in account settings.",
+          "Items can be returned within 30 days of delivery for a full refund."
+        ],
+        "total_unique": 12,
+        "recall": 1.0
+      },
+      "recall_improvement": 0.0
+    },
+    {
+      "query": "My item arrived broken \u2014 what are my options?",
+      "variants": [
+        "The product I received is damaged; how should I proceed?",
+        "My order arrived in a defective state, so what remedies are available to me?",
+        "I have received a shattered item and would like to know the resolution process."
+      ],
+      "single_query": {
+        "chunks": [
+          "Return shipping labels are free for defective items, otherwise the customer pays return postage.",
+          "Subscription plans are billed monthly and can be cancelled at any time from the billing page.",
+          "Refunds are issued to the original payment method within 5-10 business days of us receiving the item.",
+          "Standard shipping takes 5-7 business days within the continental US.",
+          "Express shipping costs an additional $15 and delivers in 1-2 business days."
+        ],
+        "recall": 0.25
+      },
+      "multi_query": {
+        "merged_chunks": [
+          "Return shipping labels are free for defective items, otherwise the customer pays return postage.",
+          "Subscription plans are billed monthly and can be cancelled at any time from the billing page.",
+          "Refunds are issued to the original payment method within 5-10 business days of us receiving the item.",
+          "Standard shipping takes 5-7 business days within the continental US.",
+          "Express shipping costs an additional $15 and delivers in 1-2 business days.",
+          "The mobile app is available on iOS 15+ and Android 10+.",
+          "Customer support is available via live chat 9am-6pm ET, Monday through Friday.",
+          "We do not currently ship internationally outside the US and Canada.",
+          "To file a warranty claim, contact support with your order ID and a description of the issue.",
+          "Order status can be tracked in real time from the 'My Orders' page after logging in."
+        ],
+        "total_unique": 13,
+        "recall": 0.5
+      },
+      "recall_improvement": 0.25
+    },
+    {
+      "query": "Is there a faster delivery option?",
+      "variants": [
+        "Are there any expedited shipping methods available?",
+        "Could I choose a more rapid transit alternative?",
+        "Is it possible to select an accelerated delivery service?"
+      ],
+      "single_query": {
+        "chunks": [
+          "Items can be returned within 30 days of delivery for a full refund.",
+          "The mobile app is available on iOS 15+ and Android 10+.",
+          "Customer support is available via live chat 9am-6pm ET, Monday through Friday.",
+          "Bulk orders of 50+ units qualify for a 10% discount; contact sales for a quote.",
+          "To file a warranty claim, contact support with your order ID and a description of the issue."
+        ],
+        "recall": 0.0
+      },
+      "multi_query": {
+        "merged_chunks": [
+          "Items can be returned within 30 days of delivery for a full refund.",
+          "The mobile app is available on iOS 15+ and Android 10+.",
+          "Customer support is available via live chat 9am-6pm ET, Monday through Friday.",
+          "Bulk orders of 50+ units qualify for a 10% discount; contact sales for a quote.",
+          "To file a warranty claim, contact support with your order ID and a description of the issue.",
+          "Subscription plans are billed monthly and can be cancelled at any time from the billing page.",
+          "Return shipping labels are free for defective items, otherwise the customer pays return postage.",
+          "Gift cards do not expire and can be combined with other payment methods at checkout.",
+          "Standard shipping takes 5-7 business days within the continental US.",
+          "Express shipping costs an additional $15 and delivers in 1-2 business days."
+        ],
+        "total_unique": 13,
+        "recall": 1.0
+      },
+      "recall_improvement": 1.0
+    },
+    {
+      "query": "How do I secure my account better?",
+      "variants": [
+        "What steps should I take to bolster the protection of my profile?",
+        "In what ways can I enhance the safety measures on my account?",
+        "How can I implement more robust security protocols for my personal login?"
+      ],
+      "single_query": {
+        "chunks": [
+          "We do not currently ship internationally outside the US and Canada.",
+          "Two-factor authentication can be enabled from the Security tab in account settings.",
+          "You can create an account using an email address or by signing in with Google.",
+          "Gift cards do not expire and can be combined with other payment methods at checkout.",
+          "Standard shipping takes 5-7 business days within the continental US."
+        ],
+        "recall": 0.5
+      },
+      "multi_query": {
+        "merged_chunks": [
+          "We do not currently ship internationally outside the US and Canada.",
+          "Two-factor authentication can be enabled from the Security tab in account settings.",
+          "You can create an account using an email address or by signing in with Google.",
+          "Gift cards do not expire and can be combined with other payment methods at checkout.",
+          "Standard shipping takes 5-7 business days within the continental US.",
+          "Refunds are issued to the original payment method within 5-10 business days of us receiving the item.",
+          "To file a warranty claim, contact support with your order ID and a description of the issue.",
+          "Items can be returned within 30 days of delivery for a full refund.",
+          "Bulk orders of 50+ units qualify for a 10% discount; contact sales for a quote.",
+          "The mobile app is available on iOS 15+ and Android 10+."
+        ],
+        "total_unique": 14,
+        "recall": 0.5
+      },
+      "recall_improvement": 0.0
+    },
+    {
+      "query": "Can I use a gift voucher at checkout?",
+      "variants": [
+        "Is it possible to apply a promotional credit during the payment process?",
+        "Are gift certificates accepted as a form of payment at the final stage of purchase?",
+        "May I redeem a gift card when finalizing my order?"
+      ],
+      "single_query": {
+        "chunks": [
+          "Gift cards do not expire and can be combined with other payment methods at checkout.",
+          "Subscription plans are billed monthly and can be cancelled at any time from the billing page.",
+          "Items can be returned within 30 days of delivery for a full refund.",
+          "Passwords must be at least 10 characters and include one number and one symbol.",
+          "Bulk orders of 50+ units qualify for a 10% discount; contact sales for a quote."
+        ],
+        "recall": 1.0
+      },
+      "multi_query": {
+        "merged_chunks": [
+          "Gift cards do not expire and can be combined with other payment methods at checkout.",
+          "Subscription plans are billed monthly and can be cancelled at any time from the billing page.",
+          "Items can be returned within 30 days of delivery for a full refund.",
+          "Passwords must be at least 10 characters and include one number and one symbol.",
+          "Bulk orders of 50+ units qualify for a 10% discount; contact sales for a quote.",
+          "Refunds are issued to the original payment method within 5-10 business days of us receiving the item.",
+          "To file a warranty claim, contact support with your order ID and a description of the issue.",
+          "The mobile app is available on iOS 15+ and Android 10+.",
+          "Customer support is available via live chat 9am-6pm ET, Monday through Friday.",
+          "All electronics purchased come with a 1-year manufacturer warranty covering defects."
+        ],
+        "total_unique": 10,
+        "recall": 1.0
+      },
+      "recall_improvement": 0.0
+    }
+  ]
+}
