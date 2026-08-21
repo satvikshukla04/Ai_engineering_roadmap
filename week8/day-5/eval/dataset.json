@@ -1,0 +1,32 @@
+[
+  {
+    "document_title": "Python Basics",
+    "document_content": "Python is a dynamically typed, interpreted programming language known for readability. It supports multiple paradigms including object-oriented and functional programming. Python uses indentation to define code blocks instead of braces.",
+    "query": "Is Python dynamically typed?",
+    "expected_keywords": ["dynamically", "typed"]
+  },
+  {
+    "document_title": "REST APIs",
+    "document_content": "REST APIs use HTTP methods such as GET, POST, PUT, and DELETE to operate on resources. Endpoints are typically organized around nouns representing resources, and responses are commonly formatted as JSON.",
+    "query": "What HTTP methods does REST use?",
+    "expected_keywords": ["GET", "POST", "DELETE"]
+  },
+  {
+    "document_title": "Vector Databases",
+    "document_content": "Vector databases store high dimensional embeddings and support approximate nearest neighbor search. They are commonly used to power retrieval augmented generation systems by finding semantically similar chunks of text.",
+    "query": "What do vector databases support?",
+    "expected_keywords": ["nearest", "neighbor", "embeddings"]
+  },
+  {
+    "document_title": "JWT Authentication",
+    "document_content": "JSON Web Tokens encode claims about a user in a signed payload. A server issues a token after verifying credentials, and clients present the token on subsequent requests instead of resending a password.",
+    "query": "What does a server do after verifying credentials?",
+    "expected_keywords": ["token", "issues"]
+  },
+  {
+    "document_title": "Server Sent Events",
+    "document_content": "Server sent events allow a server to push a stream of text based events to a client over a single long lived HTTP connection, commonly used to stream partial responses from a language model as they are generated.",
+    "query": "How are server sent events commonly used with language models?",
+    "expected_keywords": ["stream", "partial", "responses"]
+  }
+]

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+eval/results.json
+agent.log
+embedding_cache.json
